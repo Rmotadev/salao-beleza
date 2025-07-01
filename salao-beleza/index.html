@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Seu Salão - Salão de Beleza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Nome do Seu Salão</h1>
+                    <span>Salão de Beleza</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                    <li><a href="#contato" class="nav-link btn-agendar">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Desperte Sua Beleza Natural</h1>
+            <p class="hero-subtitle">Transforme-se em nosso salão de beleza com tratamentos exclusivos e profissionais especializados</p>
+            <div class="hero-buttons">
+                <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+                <a href="#servicos" class="btn btn-secondary">Nossos Serviços</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/images/interior-salao.jpg" alt="Interior do Salão">
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos uma ampla gama de serviços de beleza para realçar sua beleza natural</p>
+            </div>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Cabelo</h3>
+                    <p>Cortes modernos, coloração, tratamentos capilares e penteados para todas as ocasiões</p>
+                    <ul class="servico-lista">
+                        <li>Corte e Escova</li>
+                        <li>Coloração</li>
+                        <li>Mechas e Luzes</li>
+                        <li>Tratamentos Capilares</li>
+                        <li>Penteados para Eventos</li>
+                    </ul>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Maquiagem</h3>
+                    <p>Maquiagem profissional para o dia a dia, eventos especiais e noivas</p>
+                    <ul class="servico-lista">
+                        <li>Maquiagem Social</li>
+                        <li>Maquiagem para Noivas</li>
+                        <li>Maquiagem Artística</li>
+                        <li>Design de Sobrancelhas</li>
+                        <li>Extensão de Cílios</li>
+                    </ul>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Unhas</h3>
+                    <p>Manicure e pedicure com técnicas modernas e nail art personalizada</p>
+                    <ul class="servico-lista">
+                        <li>Manicure Tradicional</li>
+                        <li>Pedicure Spa</li>
+                        <li>Unhas em Gel</li>
+                        <li>Nail Art</li>
+                        <li>Alongamento de Unhas</li>
+                    </ul>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Estética</h3>
+                    <p>Tratamentos faciais e corporais para rejuvenescimento e bem-estar</p>
+                    <ul class="servico-lista">
+                        <li>Limpeza de Pele</li>
+                        <li>Hidratação Facial</li>
+                        <li>Massagem Relaxante</li>
+                        <li>Depilação</li>
+                        <li>Tratamentos Anti-idade</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa Galeria</h2>
+                <p>Veja alguns dos nossos trabalhos e o ambiente acolhedor do nosso salão</p>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="assets/images/servicos-cabelo.jpg" alt="Serviços de Cabelo">
+                    <div class="galeria-overlay">
+                        <h3>Cabelo</h3>
+                        <p>Transformações incríveis</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/images/maquiagem.jpg" alt="Maquiagem Profissional">
+                    <div class="galeria-overlay">
+                        <h3>Maquiagem</h3>
+                        <p>Realce sua beleza</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/images/unhas.webp" alt="Nail Art">
+                    <div class="galeria-overlay">
+                        <h3>Unhas</h3>
+                        <p>Arte nas suas mãos</p>
+                    </div>
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/images/spa.jpg" alt="Ambiente Spa">
+                    <div class="galeria-overlay">
+                        <h3>Spa</h3>
+                        <p>Relaxamento total</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h2>Sobre o Nosso Salão</h2>
+                    <p>Há mais de 10 anos, nosso salão tem sido referência em beleza e bem-estar. Nossa missão é realçar a beleza natural de cada cliente, proporcionando uma experiência única e transformadora.</p>
+                    <p>Contamos com uma equipe de profissionais altamente qualificados e utilizamos apenas produtos de alta qualidade para garantir os melhores resultados.</p>
+                    <div class="sobre-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5000+</h3>
+                            <p>Clientes Satisfeitas</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Profissionais Especializados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <img src="assets/images/interior-salao.jpg" alt="Equipe do Salão">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Estamos aqui para atender você da melhor forma possível</p>
+            </div>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contato-text">
+                            <h3>Endereço</h3>
+                            <p>Rua das Flores, 123<br>Centro - São Paulo, SP<br>CEP: 01234-567</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contato-text">
+                            <h3>Telefone</h3>
+                            <p>(11) 9999-9999<br>(11) 8888-8888</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contato-text">
+                            <h3>E-mail</h3>
+                            <p>contato@seudominio.com.br<br>agendamento@seudominio.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contato-text">
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 17h<br>Domingo: Fechado</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contato-form" id="contatoForm">
+                    <h3>Entre em Contato</h3>
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Qual o assunto da sua mensagem?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos como podemos ajudá-la..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <h3>Nome do Seu Salão</h3>
+                        <span>Salão de Beleza</span>
+                    </div>
+                    <p>Transformando vidas através da beleza há mais de 10 anos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Cabelo</a></li>
+                        <li><a href="#servicos">Maquiagem</a></li>
+                        <li><a href="#servicos">Unhas</a></li>
+                        <li><a href="#servicos">Estética</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123 - Centro</p>
+                    <p><i class="fas fa-phone"></i> (11) 9999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@seudominio.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nome do Seu Salão. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar um horário no salão." target="_blank" class="whatsapp-button">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
